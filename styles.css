@@ -381,6 +381,12 @@ footer > div { align-items: center; display: flex; gap: 14px; }
 footer p { margin: 0; }
 footer > p { text-align: center; }
 footer > a { justify-self: end; padding: 8px 0; }
+footer .social-link {
+  border-bottom: 1px solid currentColor;
+  padding-bottom: 3px;
+  transition: color 180ms ease;
+}
+footer .social-link:hover { color: var(--signal); }
 .footer-mark { background: var(--paper); color: var(--foreground); }
 
 @media (prefers-color-scheme: dark) {
